@@ -201,8 +201,17 @@ body.dark-theme {
   letter-spacing: -1px;
   display: inline-flex;
   align-items: center;
-  column-gap: 0.5rem;
   transition: 0.3s;
+}
+
+.nav__logo i {
+  padding-right: 0.5rem;
+}
+
+.nav__logo span {
+  text-transform: lowercase;
+  color: var(--first-color);
+  padding: 0 0.25rem;
 }
 
 .nav__logo-icon {
@@ -713,7 +722,6 @@ body.dark-theme {
 .footer__logo {
   display: inline-flex;
   align-items: center;
-  column-gap: 0.5rem;
   color: var(--title-color);
   text-transform: uppercase;
   font-weight: 700;
@@ -722,7 +730,14 @@ body.dark-theme {
   transition: 0.3s;
 }
 
+.footer__logo span {
+  text-transform: lowercase;
+  color: var(--first-color);
+  padding: 0 0.25rem;
+}
+
 .footer__logo-icon {
+  padding-right: 0.5rem;
   font-size: 1.15rem;
   color: var(--first-color);
 }
@@ -1029,7 +1044,7 @@ body.dark-theme {
 @media screen and (min-width: 1200px) {
   .home__social {
     right: -3rem;
-    row-gap: 4.5rem;
+    row-gap: 7rem;
   }
   .home__social-follow {
     font-size: var(--small-font-size);
